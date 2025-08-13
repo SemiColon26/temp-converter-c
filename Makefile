@@ -2,7 +2,7 @@ CC ?= gcc
 CFLAGS ?= -Wall -Wextra -std=c99
 LDFLAGS ?=
 
-TARGET = temp-converter
+TARGET = temp_converter
 PREFIX = /usr/bin
 
 all: $(TARGET)
